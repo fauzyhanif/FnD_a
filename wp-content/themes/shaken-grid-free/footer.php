@@ -3,7 +3,9 @@
 ================================= -->
 <br class="clearfix" />
 <div id="footer">
-	<p>&copy; Copyright <?php echo date('Y'); ?> <span class="alignright">Powered by <a href="http://shakenandstirredweb.com/theme/shaken-grid-free" target="_blank">Shaken Grid Free</a></span></p>
+	<p>&copy; Copyright <?php echo date('Y'); ?> <span class="alignright">Powered by <a href="http://shakenandstirredweb.com/theme/shaken-grid-free" target="_blank">Shaken Grid Free</a>
+	<br/>Designed by quixoticcode.com		
+	</span></p>
     <br class="clearfix" />
 </div>
 

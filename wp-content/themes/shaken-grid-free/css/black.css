@@ -1,11 +1,18 @@
 body{
-	background:#111;
+	/* background: #111; */ 
+	/* background: #F7EEDE; */
+	/* background: #FFFFF0; */
+	background: url("images/green-bg.jpg");
 	color:#a6a6a6;
 }
 
 .box, #header, #footer, .wide-col, .narrow-col, .menu li ul{
-	background:rgb(0,0,0);
-	background:rgba(0,0,0, 0.7);
+	/*background:rgb(0,0,0);
+	background:rgba(0,0,0, 0.7); */
+	/* background:rgb(64, 23, 71); */ /* #401747 */
+	/* background:rgba(64, 23, 71, 0.95); */  /* rgba is for transparency support */
+	background:rgb(50, 15, 66);
+	background:rgba(50, 15, 66, 0.95); 
 }
 	.menu li a{
 		border-bottom:rgb(0,0,0) 1px solid;
@@ -30,8 +37,10 @@ body{
 	}
 	
 .navigation a{
-	background:rgba(0,0,0, 0.4);
-	border:1px solid rgba(0,0,0,0.5);
+	/* background:rgba(0,0,0, 0.4);
+ 	border:1px solid rgba(0,0,0,0.5); */
+ 	background:rgba(64, 23, 71, 0.95);
+ 	border:1px solid rgba(0, 0, 0, 0.5);
 	color:#FFF;
 }
 
@@ -42,7 +51,8 @@ body{
 	-moz-text-shadow:2px 2px 2px rgba(0,0,0,1);
 }
 	#header h1 a:hover{
-		color:#5096cb;
+		/* color:#5096cb; */
+		color: #78DE47;
 	}
 	
 .menu a{
@@ -53,7 +63,8 @@ body{
 	}
 		
 #header h3, .box p, .box, .box h2, input{
-	color:#a6a6a6;
+	/* color:#a6a6a6; */
+	color: #FFFFF0;
 }
 
 #page h2, #page h3{

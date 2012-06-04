@@ -44,7 +44,10 @@ Author URI: http://shakenandstirredweb.com/
 		2 - Typography
 ---------------------------------------------------- */
 a, a.more-link p{
-	color:#5096cb;
+	/* color:#5096cb; */
+	/* color: #4CBB17; */ /* Kelly Green */
+	/* color: #008000; */ /* Green */
+	color: #78DE47;
 }
 #header h1 a,
 .menu li a,
@@ -71,6 +74,7 @@ a, a.more-link p{
 	}
 	#header h1 a:hover{
 		color:#00657e;
+		/* color: #78DE47; */
 	}
 	
 #page h2{
@@ -340,7 +344,9 @@ ul{
 		text-decoration:none;
 	}
 		.navigation a:hover{
-			background:#5096cb;
+			/* background:#5096cb; */
+			/* background: #78DE47; */
+			background: #4CBB17;
 			color:#FFF;
 		}
 	#nav-above{
