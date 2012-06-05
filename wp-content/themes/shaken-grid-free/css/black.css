@@ -64,7 +64,8 @@ body{
 		
 #header h3, .box p, .box, .box h2, input{
 	/* color:#a6a6a6; */
-	color: #FFFFF0;
+	/* color: #FFFFF0; */
+	color: #FFF;
 }
 
 #page h2, #page h3{

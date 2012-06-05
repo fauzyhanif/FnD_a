@@ -123,7 +123,8 @@ h5{
 }
 
 .box p, .box ul{
-	font-size:11px;
+	/* font-size:11px; */
+	font-size: 12px;
 	line-height:16px;
 	color:#777;
 	margin-bottom:10px;
@@ -222,7 +223,8 @@ ul{
 	.menu{
 		list-style:none;
 		padding:0;
-		margin:20px 0 0 40px;
+		/* margin:20px 0 0 40px; */
+		margin:15px 0 0 40px;
 	}
 		.menu li{
 			display:inline;
@@ -237,6 +239,7 @@ ul{
 				text-decoration:none;
 				color:#999;
 				border-bottom:1px solid #FFF;
+				font-size: 26px;
 			}
 			.menu li a:hover, .menu li.current-menu-item a{
 				color:#333;
@@ -272,6 +275,7 @@ ul{
 				line-height:12px;
 			}
 	.wide-col{
+		font-size: 14px;
 		padding:20px;
 		background:#FFF;
 		float:left;
@@ -282,6 +286,7 @@ ul{
 		box-shadow:1px 1px 3px rgba(0,0,0,0.2);
 	}
 	.narrow-col{
+		font-size: 14px;
 		padding:20px;
 		background:#FFF;
 		float:right;
@@ -367,4 +372,8 @@ ul{
 	#s{width:60%;}
 #searchform{
 	margin-bottom:40px;
+}
+
+li.pages-body {
+	color: #FFF;
 }
